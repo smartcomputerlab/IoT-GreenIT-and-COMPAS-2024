@@ -13,6 +13,7 @@ The IoT DevKits integrate these boards and offer a large number of interfaces an
 
 The first IoT DevKit integrates an ESP32C3 (RISC-V) SoC and several wireless links such as WiFi, BT, and LoRa for long range communication.
 The same DevKit integrates an interface to Power Profiler Kit II to work in ammeter or source mode. In ammeter mode we use the integrated battery to analyze the current running from the battery to the board. In source mode , the PPK provides the energy source with the calibrated voltage.
+The ESP32C3 SoC is integrated into IoT board produced by Heltec. To make the naming shorter we call this board in the prepared exercise as **HT** board.
 
 
 
