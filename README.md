@@ -31,7 +31,7 @@ The above HT DevKits are powered correspondigly by: USB from PC, Power Profiler 
 The second IoT DevKit is based on ARM-SX1262 SoM (System on Module). It's power consumption in low_power stage is about 6µA.
 The board provides only Long Range communication link via LoRa modem (SX1262).
 Three versions of the CC board are given below. 
-There are several energy source available to run this board - CubeCell , in short **CC**.
+There are several energy source available to run this board in an **autonomous way !**.
 We hope that you can find them **by yourself !**
 <p align="center">
   <img src="images/IoT.CC.boards.energy.sources.png" width="720" title="hover text">
