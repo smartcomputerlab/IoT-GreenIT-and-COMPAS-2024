@@ -17,5 +17,5 @@ The ESP32C3 SoC is integrated into IoT board produced by Heltec. To make the nam
 
 
 
-The complete introduction to HT board and related DevKit and the prepared exercises is provided in the main document (pdf).
+The complete introduction to HT board and related DevKit and the prepared exercises is provided in the main document IoT.GreenIT.2024 (pdf).
 
