@@ -31,5 +31,7 @@ The second IoT DevKit is based on ARM-SX1262 SoM (System on Module). It's power 
 The board provides only Long Range communication link via LoRa modem (SX1262).
 
 There are several energy source available to run this board - CubeCell , in short **CC**.
-
+<p align="center">
+  <img src="images/IoT.CC.boards.energy.sources.png" width="720" title="hover text">
+</p>
 
