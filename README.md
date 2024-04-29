@@ -24,6 +24,7 @@ The complete introduction to HT board and related DevKit and the prepared exerci
   <img src="images/IoT.HT.DevKit.PPK.source.png" width="240" title="accessibility text">
   <img src="images/IoT.HT.DevKit.battery.source.png" width="240" title="accessibility text">
 </p>
-The above 
+The above HT DevKits are powered correspondigly by: USB from PC, Power Profiler source, battery source.
+
 
 
