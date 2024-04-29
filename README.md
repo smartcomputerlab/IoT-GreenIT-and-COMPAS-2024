@@ -12,3 +12,8 @@ Here, we provide you with two types of IoT boards based on RISC-V and ARM SoCs, 
 The IoT DevKits integrate these boards and offer a large number of interfaces and autonomous power sources such as batteries, super-capacitors, and solar cells.
 
 The first IoT DevKit integrates an ESP32C3 (RISC-V) SoC and several wireless links such as WiFi, BT, and LoRa for long range communication.
+The same DevKit integrates an interface to Power Profiler Kit II to work in ammeter or source mode. In ammeter mode we use the integrated battery to analyze the current running from the battery to the board. In source mode , the PPK provides the energy source with the calibrated voltage.
+
+
+
+The complete introduction and the prepared 
