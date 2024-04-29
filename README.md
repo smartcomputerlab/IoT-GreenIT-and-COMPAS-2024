@@ -9,4 +9,6 @@ These low «power aspects» include the sensing, the processing, and the IoT dat
 
 To work practically with low power aspects of IoT you need actual development kits based on low power IoT boards/SoCs.
 Here, we provide you with two types of IoT boards based on RISC-V and ARM SoCs, namely ESP32C3 and ARM-M0.
-The IoT DevKits integrate these boards and offer a large number of interfaces and autonomous power sources such as battery, super-capacitors, and solar cells.
+The IoT DevKits integrate these boards and offer a large number of interfaces and autonomous power sources such as batteries, super-capacitors, and solar cells.
+
+The first IoT DevKit integrates an ESP32C3 (RISC-V) SoC and several wireless links such as WiFi, BT, and LoRa for long range communication.
