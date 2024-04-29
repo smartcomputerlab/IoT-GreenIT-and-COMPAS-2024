@@ -19,6 +19,7 @@ The ESP32C3 SoC is integrated into IoT board produced by Heltec. To make the nam
 
 The complete introduction to HT board and related DevKit and the prepared exercises is provided in the main document IoT.GreenIT.2024 (pdf).
 ## IoT DevKits - energy provision
+### HT DevKit (HelTec)
 <p align="center">
   <img src="images/IoT.HT.DevKit.PC.source.png" width="240" title="hover text">
   <img src="images/IoT.HT.DevKit.PPK.source.png" width="240" title="accessibility text">
@@ -26,7 +27,7 @@ The complete introduction to HT board and related DevKit and the prepared exerci
 </p>
 The above HT DevKits are powered correspondigly by: USB from PC, Power Profiler source, battery source.
 
-
+### CC DevKit (CubeCell)
 The second IoT DevKit is based on ARM-SX1262 SoM (System on Module). It's power consumption in low_power stage is about 6µA.
 The board provides only Long Range communication link via LoRa modem (SX1262).
 
