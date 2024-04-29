@@ -19,7 +19,8 @@ IoT.CC.boards.energy.sources.png
 
 The complete introduction to HT board and related DevKit and the prepared exercises is provided in the main document IoT.GreenIT.2024 (pdf).
 ## IoT DevKits - energy provision
-### HT DevKit (HelTec)
+### HT DevKit (HelTec) 
+Note that the HT board in **low_power** stage (deep-sleep) requires only about **12µA** (at 3.3V).
 <p align="center">
   <img src="images/IoT.HT.DevKit.PC.source.png" width="240" title="hover text">
   <img src="images/IoT.HT.DevKit.PPK.source.png" width="240" title="accessibility text">
