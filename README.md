@@ -6,3 +6,7 @@ These low «power aspects» include the sensing, the processing, and the IoT dat
     1. The choice of power efficient sensors and sensing modes/cycles
     2. The selection of Ultra Low Processing units (ULP) often based on RISC-V processors.
     3. The reduction or “IoT data stream compression” to limit the transmission energy.
+
+To work practically with low power aspects of IoT you need actual development kits based on low power IoT boards/SoCs.
+Here, we provide you with two types of IoT boards based on RISC-V and ARM SoCs, namely ESP32C3 and ARM-M0.
+The IoT DevKits integrate these boards and offer a large number of interfaces and autonomous power sources such as battery, super-capacitors, and solar cells.
