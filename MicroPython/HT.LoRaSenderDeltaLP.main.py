@@ -1,4 +1,4 @@
-from machine import Pin,SPI,deep-sleep
+from machine import Pin,SPI,deepsleep
 from sx127x import SX127x
 from time import sleep
 import LoRaSenderDeltaLP
@@ -41,10 +41,10 @@ lora_spi = SPI(
 
 lora = SX127x(lora_spi, pins=lora_pins, parameters=lora_default)
 type = 'sender'     # let us select sender method
-
+delta=0.02
 if __name__ == '__main__':
     if type == 'sender':
-        LoRaSenderDeltaLP.send(lora)
+        LoRaSenderDeltaLP.send(lora,delta)
         lora.sleep()
         deepsleep(5000)
 

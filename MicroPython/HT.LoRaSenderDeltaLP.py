@@ -19,7 +19,7 @@ def disp(t,h,l):
     sleep(5)
     oled.poweroff()
 
-def send(lora):
+def send(lora,delta):
     i2c = SoftI2C(scl=Pin(9), sda=Pin(8), freq=100000)
     rtc = machine.RTC()
     stfloat=0.0
@@ -29,14 +29,15 @@ def send(lora):
         stfloat=float(r)
         print(stfloat)                      # formatting float for stored temperature
         
-    chan =12345
-    wkey="abcdefghijklmnop"    
+    chan =1538804
+    wkey="YOX31M0EDKO0JATK"    
     lumsensor = max44009.MAX44009(i2c)
     luminosity=lumsensor.lux
     temperature = sht21.SHT21_TEMPERATURE(i2c)
     humidity = sht21.SHT21_HUMIDITE(i2c)
+    print('Temperature: '+str(temperature))
     
-    if (temperature>(stfloat+0.01) or temperature<(stfloat-0.01)):
+    if (temperature>(stfloat+delta) or temperature<(stfloat-delta)):
         led = Pin (18, Pin.OUT)
         led.value(1)
         rtc.memory(str(temperature))
